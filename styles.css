@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6fedd6;
+  text-align: center;
+}
+
+.bottom-container {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+h2 {
+  color: hsl(229, 23%, 23%);
+}
+
+.grey-text {
+  color: hsl(0, 0%, 59%);
+}
+
+.dark-grey-text {
+  color: hsl(229, 23%, 23%);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.user-age {
+  font-weight: normal;
+}
+
+.main-content {
+  background-color: #fff;
+  height: 50%;
+  width: 23%;
+  border-radius: 10px;
+  border: 1px solid #b9fff8;
+  overflow: hidden;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 5rem;
+  margin-bottom: 0.5rem;
+}
+
+.main-image {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  position: absolute;
+  bottom: 20%;
+}
+
+.empty-container {
+  width: 100%;
+  height: 30%;
+  background-color: #b9fff8;
+}
+
+.user-location {
+  margin: 1rem 0 1.5rem;
+}
+
+.text-info {
+  margin-top: 0.4rem;
+  text-transform: capitalize;
+}
+
+@media (max-width: 1500px) {
+  .main-content {
+    min-width: 342px;
+    min-height: 520px;
+  }
+}
